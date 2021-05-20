@@ -1,1 +1,8 @@
-# main playbook for setting up control ubuntu vm
+---
+# main plybook for setting up control ubuntu vm
+- name: configure control server
+  hosts: all
+  tasks: 
+  - name: Import the linux configuration role
+    import_role: 
+      name: jelockro.linux
