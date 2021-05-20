@@ -1,5 +1,5 @@
 ---
 roles:
-  # Install a role from Ansible Galaxy.
-  - name: jelockro.linux
-    source: https://github.com/jelockro/jelockro.linux
+  # Install a role from 
+  - src: https://github.com/jelockro/jelockro.linux
+    name: jelockro.linux
